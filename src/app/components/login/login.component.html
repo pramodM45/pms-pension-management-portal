@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row pt-5">
+        <div class="mx-auto" style="width: 600px;">
+            <h1>Pension Management Portal</h1>
+          </div>      
+    </div>
+<div class="row pt-5" style="width: 800px;">
+<div class="col-2"><h5>Username </h5></div>
+<div class="col-3"><input class="form-control" type="text" #usernameref></div>
+</div>
+<div class="row pt-5" style="width: 800px;">
+<div class="col-2"><h5>Password </h5></div>
+<div class="col-3"><input class="form-control" type="password" #password><br/><br/></div>
+</div>
+
+<button class="btn btn-primary ms-5 ps-5 pe-5" type="button" (click)="onLogin(usernameref,password)">Login</button>
+
+<div class="pt-4 text-danger" *ngIf="wrongCredentials">Wrong credentials please try logging in again</div>
+</div>

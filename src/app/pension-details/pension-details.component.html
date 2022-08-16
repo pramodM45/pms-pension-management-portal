@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row pt-5">
+    <div class="col-10">
+        <div class="mx-auto" style="width: 700px;">
+            <h1>Pension Management Portal</h1> 
+        </div>  
+    </div>
+    <div class="col-2">
+        <button class="btn btn-primary ms-5 ps-5 pe-5" type="button" (click)="logout()">Logout</button>
+    </div>
+  </div>
+    <div class="row pt-5">
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Bank Service Charge</th>
+                <th scope="col">Pension Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{pensionDetails.bankServiceCharge}}</td>
+                <td>{{pensionDetails.pensionAmount}}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+
+</div>
+
+
