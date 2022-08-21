@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  loadbalancerUri:"http://pms-pramo-load-balancer-273644898.ap-south-1.elb.amazonaws.com"
+  loadbalancerUri:"http://pms-pramo-load-balancer-1694298962.ap-south-1.elb.amazonaws.com"
 };
 
 /*
